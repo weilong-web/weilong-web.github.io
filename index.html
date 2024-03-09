@@ -51,7 +51,41 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
-      
+<tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()"  bgcolor="#ffffd0">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='dreamfusion_image'>
+        <img src='images/interpolant1.jpg' width="160"></div>
+        <img src='images/interpolant2.jpg' width="160">
+    </div>
+    <script type="text/javascript">
+      function dreamfusion_start() {
+        document.getElementById('dreamfusion_image').style.opacity = "1";
+      }
+
+      function dreamfusion_stop() {
+        document.getElementById('dreamfusion_image').style.opacity = "0";
+      }
+      dreamfusion_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://github.com/weilong-web/Master-Thesis/blob/main/Thermodynamic%20Interpolants.pdf">
+      <papertitle>Thermodynamic Interpolants: Learning Transformations Between Thermodynamic States</papertitle>
+    </a>
+    <br>
+    <strong>Weilong Chen</strong>,
+    Selma Moqvist,
+    <br>
+    <em>Project in Computer Science & Master thesis</em>, Ongoing &nbsp <font color="blue"><strong>(Supervisor<a href="https://scholar.google.com/citations?user=EJMhxFIAAAAJ&hl=en&oi=ao">Simon Olsson</a>)</strong></font>
+    <br>
+    <p></p>
+    <p>
+    We utilize the recent generative model framework Flow Matching, as employed in Midjourney 3, and the Stochastic Interpolant framework to transform samples across different thermodynamic states under the Boltzmann distribution. Our results underscore the effectiveness of generative models in enhancing sampling through neural network surrogate models. The findings, showcasing improved computational efficiency and promising results, highlight the potential of this approach in advancing the field of statistical mechanics.
+    </p>
+  </td>
+</tr>
+		
 <tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()"  bgcolor="#ffffd0">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
