@@ -200,7 +200,42 @@
               </p>
       </td>
     </tr>		
+ <tr onmouseout="trans_stop()" onmouseover="trans_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='trans_image'>
+                  <img src='images/transformer_1.png' width="160"></div>
+                <img src='images/transformer_2.png' width="160">
+              </div>
+        <script type="text/javascript">
+          function bakedsdf_start() {
+            document.getElementById('trans_image').style.opacity = "1";
+          }
 
+          function bakedsdf_stop() {
+            document.getElementById('trans_image').style.opacity = "0";
+          }
+          trans_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/Project course in mathematical and statistical modelling.pdf">
+                <papertitle>Pre-training time series models of truck behavior</papertitle>
+              </a>
+              <br>
+              <strong>Weilong Chen</strong>, 
+        	Jadd Ujam,
+              K Jai Ganesh Singh Dadwal
+              <br>
+              <em>Report</em>, 2023
+              <p></p>
+              <p>
+        	The report elaborates on one student project at Volvo Group Truck, focusing on pre-training time series models utilizing BERT architecture to analyze truck behavior. With fuel consumption prediction as a primary example, we achieved commendable performance, showcasing the efficacy of our approach.
+              </p>
+      </td>
+    </tr>
+
+		
 		
         </tbody></table>
 
