@@ -44,14 +44,57 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in Applied Mathematics including AI4Science, CFD, Machine Learning, Optimization, Control and Dynamical Systems. Much of my previous study is related to AI and Aerospace industry. Previous relevant projects are listed below. Please check my <a href="data/CV.pdf">CV</a> for more detail.
+                My main interests are in geometric deep learning and probabilistic generative models, such as diffusion and flow matching, and their scientific applications (AI4Science).
+              </p>
+              <p> 
+                In addition, I have a broad interest in Applied Mathematics, particularly in areas such as CFD, Control, and Dynamical Systems. Much of my previous work has been related to AI and the aerospace industry. Details of my relevant projects are listed below. For more information, please refer to my <a href="data/CV.pdf">CV</a>.
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-				
-<tr onmouseout="dream_stop()" onmouseover="dream_start()"  bgcolor="#ffffd0">
+
+          <tr onmouseout="thesis_stop()" onmouseover="thesis_start()"  bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='thesis_image'>
+                  <img src='images/ala2_ito_densities.png' width="160"></div>
+                  <img src='images/chiro_painn_vector_field_model.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function thesis_start() {
+                  document.getElementById('thesis_image').style.opacity = "1";
+                }
+          
+                function thesis_stop() {
+                  document.getElementById('thesis_image').style.opacity = "0";
+                }
+                thesis_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/Master_s_Thesis.pdf">
+                <papertitle>Generative AI for Molecular Simulations: Speeding Up Molecular Simulations With Stochastic
+                  Interpolation</papertitle>
+              </a>
+              <br>
+              <strong>Weilong Chen*</strong>,
+              Selma Moqvist*
+              <br>
+              <em>Master thesis</em>&nbsp <font color="blue"><strong>(Supervisor：<a href="https://scholar.google.com/citations?user=EJMhxFIAAAAJ&hl=en&oi=ao">Simon Olsson</a>)</strong></font>
+              <br>
+              <p></p>
+              <p>
+                We highlight the ability of flow Matching to design efficient sampling methods for many-body systems in different ways. Our results are two-fold. First, we present our Stochastic
+                Interpolant <a href="https://arxiv.org/abs/2305.18046">ITO</a> model and show how it reduces the VAMP-2 score gaps when
+                benchmarked against the original ITO architecture. Next, we showcase our Thermodynamic Interpolant model, that to some extent manages to perform temperature
+                transformations in a setting where it has to generalize beyond the training data.
+              </p>
+            </td>
+          </tr>
+
+
+<tr onmouseout="dream_stop()" onmouseover="dream_start()" >
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
       <div class="two" id='interpolant_image'>
@@ -74,10 +117,10 @@
       <papertitle>Thermodynamic Interpolants: Learning Transformations Between Thermodynamic States</papertitle>
     </a>
     <br>
-    <strong>Weilong Chen</strong>,
-    Selma Moqvist
+    Selma Moqvist*,
+    <strong>Weilong Chen*</strong>
     <br>
-    <em>Project in Computer Science & Master thesis</em>, Ongoing &nbsp <font color="blue"><strong>(Supervisor：<a href="https://scholar.google.com/citations?user=EJMhxFIAAAAJ&hl=en&oi=ao">Simon Olsson</a>)</strong></font>
+    <em>Project in Computer Science &nbsp <font color="blue"><strong></em>(Supervisor：<a href="https://scholar.google.com/citations?user=EJMhxFIAAAAJ&hl=en&oi=ao">Simon Olsson</a>)</strong></font>
     <br>
     <p></p>
     <p>
@@ -120,9 +163,9 @@
     <br>
     <em>China National Symposium on Combustion</em>, Sep 2022 &nbsp <font color="blue"><strong>(Wall Paper)</strong></font>
     <br>
-    <a href="data/wall paper.pdf">conference page screenshot</a>
+    <a href="data/wall paper.pdf">Conference Poster</a>
     /
-    <a href="data/Scale effect of supersonic flow mixing and combustion.pdf">graduation thesis full content</a>
+    <a href="data/Scale effect of supersonic flow mixing and combustion.pdf"> Thesis full content</a>
     <p></p>
     <p>
     Establish mathematical models for the key sub-processes of fuel mixing and flame combustion in supersonic airflow, clarify the spatial scale effects of fuel injection and mixing, and the time scale effects of supersonic combustion and flame stabilization
@@ -153,9 +196,9 @@
                 <papertitle>GPU-accelerated computational methods using Python and CUDA</papertitle>
               </a>
               <br>
-              <strong>Weilong Chen</strong>, 
-              Panagiotis Moraitis, 
-              Johannes hansson &nbsp <font color="blue"><strong>(Supervisor: <a href="http://www.tfd.chalmers.se/~lada/">Lars Davidson</a>)</strong></font>
+              <strong>Weilong Chen*</strong>, 
+              Panagiotis Moraitis*, 
+              Johannes hansson* &nbsp <font color="blue"><strong>(Supervisor: <a href="http://www.tfd.chalmers.se/~lada/">Lars Davidson</a>)</strong></font>
               <br>
               <em>Report</em>, 2022
               <p></p>
@@ -264,7 +307,6 @@
             <td width="75%" valign="center">
               Fan of <a href="https://open.spotify.com/artist/0fyaEHmSmZs2YWMgbruITA">Masiwei, Chinese Hip-hop musician</a>
 	      <br>
-	      Lyrics："The Western culture's tryna see, but I'm spittin' bars in Chinese, making it my own G."
 
             </td>
           </tr>
