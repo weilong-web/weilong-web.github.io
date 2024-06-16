@@ -81,7 +81,7 @@
               <strong>Weilong Chen*</strong>,
               Selma Moqvist*
               <br>
-              <em>Master thesis</em>&nbsp <font color="blue"><strong>(Supervisor：<a href="https://scholar.google.com/citations?user=EJMhxFIAAAAJ&hl=en&oi=ao">Simon Olsson</a>)</strong></font>
+              <em>Master thesis, Jun 2024</em>&nbsp <font color="blue"><strong>(Supervisor：<a href="https://scholar.google.com/citations?user=EJMhxFIAAAAJ&hl=en&oi=ao">Simon Olsson</a>)</strong></font>
               <br>
               <p></p>
               <p>
@@ -93,6 +93,50 @@
             </td>
           </tr>
 
+          <tr onmouseout="proposal_stop()" onmouseover="proposal_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- Updated the div structure to ensure the GIF is always visible -->
+                <div class="two" id="proposal_image">
+                  <img src="images/output.png" width="160">
+                </div>
+                <!-- Directly include the GIF image outside the div with controlled opacity -->
+                <img src="images/samples.jpg" width="160">
+              </div>
+              <script type="text/javascript">
+                function proposal_start() {
+                  // Ensure the div content becomes fully visible on mouseover
+                  document.getElementById('proposal_image').style.opacity = "1";
+                }
+          
+                function proposal_stop() {
+                  // Set the div content to be fully transparent on mouseout
+                  document.getElementById('proposal_image').style.opacity = "0";
+                }
+          
+                // Initialize the proposal image to be transparent
+                proposal_stop();
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/Research_Proposal_v1.0.pdf">
+                <papertitle>Continuous-time generative models for sampling unnormalized densities.</papertitle>
+              </a>
+              <br>
+              <strong>Weilong Chen</strong>
+              <br>
+              <em>Research Proposal for ANC PhD application, Apr 2024</em>
+              <br>
+              <p></p>
+              <p>
+                This research proposal was originally submitted as part of the application for the Adaptive and
+                Neural Computation PhD program at the University of Edinburgh. It centers on
+                using and improving continuous-time generative models to address the challenge
+                of sampling problem in statistical physics. This proposal incorporates recent
+                advancements in this domain.
+              </p>
+            </td>
+          </tr>
 
 <tr onmouseout="dream_stop()" onmouseover="dream_start()" >
   <td style="padding:20px;width:25%;vertical-align:middle">
@@ -120,7 +164,7 @@
     Selma Moqvist*,
     <strong>Weilong Chen*</strong>
     <br>
-    <em>Project in Computer Science &nbsp <font color="blue"><strong></em>(Supervisor：<a href="https://scholar.google.com/citations?user=EJMhxFIAAAAJ&hl=en&oi=ao">Simon Olsson</a>)</strong></font>
+    <em>Project in Computer Science, Dec 2023 <font color="blue"><strong></em>(Supervisor：<a href="https://scholar.google.com/citations?user=EJMhxFIAAAAJ&hl=en&oi=ao">Simon Olsson</a>)</strong></font>
     <br>
     <p></p>
     <p>
@@ -128,7 +172,10 @@
     </p>
   </td>
 </tr>
-		
+
+
+
+
 <tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()" >
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
