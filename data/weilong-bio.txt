@@ -1,3 +1,4 @@
-Weilong Chen was born on July 2nd, 2000. He is currently a master student studying applied mathematics at Chalmers University of Technology. 
-Previously, he obtained his bachelor degree from National University of Defense Technology, majoring in Aerospace Engineering. 
+Weilong Chen was born on July 2nd, 2000. 
+He holds a Master's degree in Applied Mathematics from Chalmers University of Technology, Sweden.
+Prior to that, he obtained his bachelor degree from National University of Defense Technology, majoring in Aerospace Engineering. 
 His main interests are in geometric deep learning and probabilistic generative models, such as diffusion and flow matching, and their scientific applications (AI4Science).
